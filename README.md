@@ -1,4 +1,4 @@
-# Analytics
+# Project Overview
 
 This project aims to integrate data using Tableau tools and publish it on Tableau Cloud Public or Private Server.
 
