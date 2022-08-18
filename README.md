@@ -11,3 +11,6 @@ save in local file server repository.
   1.2 - CSVs Download.
   1.3 - Convertion of Json into CSV file.
 
+2 - ETF flow using Tableau
+
+3 - Publish Dashboard: https://public.tableau.com/app/profile/davyd7806/viz/AnliseReceitaseDespesasParan/PainelEstratgico
