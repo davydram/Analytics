@@ -11,13 +11,16 @@ import numpy as np
 import os, zipfile
 import urllib
 
-for ano in range(2016, 2023):
+for ano in range(2016, 2017):
 
     ano = str(ano)
 
     print('baixando grupo de receitas: ')
 
-    listarequests = {"listarunidade":"listaUnidade" ,"listarsubunidade": "listaSubunidade","listargrupofonte":"listaGrupoFonte","listarfonterecurso":"listaFonte"}
+    listarequests = {"listarunidade":"listaUnidade" ,
+                    "listarsubunidade": "listaSubunidade",
+                    "listargrupofonte":"listaGrupoFonte",
+                    "listarfonterecurso":"listaFonte"}
 
     diretorio_raiz = 'C:/DataMartBase/Input/'
 
@@ -67,7 +70,8 @@ for ano in range(2016, 2023):
 
     print('baixando grupo de despesas: ')
 
-    listarequests = {'listardespesa':'listaDespesa','listarelementodespesa':'listaElemento'}
+    listarequests = {'listardespesa':'listaDespesa',
+                    'listarelementodespesa':'listaElemento'}
 
 
     for k, v in listarequests.items():
