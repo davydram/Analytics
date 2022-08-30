@@ -19,7 +19,7 @@ for ano in range(2016, 2023):
 
     listarequests = {"listarunidade":"listaUnidade" ,"listarsubunidade": "listaSubunidade","listargrupofonte":"listaGrupoFonte","listarfonterecurso":"listaFonte"}
 
-    diretorio_raiz = 'C:/Users/davyd.ramos/OneDrive - Furukawa Electric Latam/Área de Trabalho/TCC/Input/'
+    diretorio_raiz = 'C:/DataMartBase/Input/'
 
     if not os.path.exists(diretorio_raiz):
         os.makedirs(diretorio_raiz)
@@ -148,7 +148,7 @@ for ano in range(2016, 2023):
 
     url='http://www.transparencia.download.pr.gov.br/exportacao/VIAGENS/VIAGENS-'+ano+'.zip?windowId=6eb'
 
-    diretorio = 'C:/Users/davyd.ramos/OneDrive - Furukawa Electric Latam/Área de Trabalho/TCC/Input/outras_fontes/viagens/'+ano+'/'
+    diretorio = 'C:/DataMartBase/Input/outras_fontes/viagens/'+ano+'/'
     nome_arquivo = url.split('/')[-1].replace(" ", "_").split('?')[0]
     print(nome_arquivo)
     if not os.path.exists(diretorio):
@@ -180,7 +180,7 @@ for ano in range(2016, 2023):
 
     url='http://www.transparencia.download.pr.gov.br/exportacao/REMUNERACAO_RH/REMUNERACAO_RH.zip?windowId=3f7'
 
-    diretorio = 'C:/Users/davyd.ramos/OneDrive - Furukawa Electric Latam/Área de Trabalho/TCC/Input/outras_fontes/remuneracao_rh/'
+    diretorio = 'C:/DataMartBase/Input/outras_fontes/remuneracao_rh/'
     nome_arquivo = url.split('/')[-1].replace(" ", "_").split('?')[0]
     print(nome_arquivo)
     if not os.path.exists(diretorio):
@@ -210,7 +210,7 @@ for ano in range(2016, 2023):
 
     url='http://www.transparencia.download.pr.gov.br/exportacao/RECEITAS/RECEITAS-'+ano+'.zip?windowId=554'
 
-    diretorio = 'C:/Users/davyd.ramos/OneDrive - Furukawa Electric Latam/Área de Trabalho/TCC/Input/outras_fontes/receitas/'+ano+'/'
+    diretorio = 'C:/DataMartBase/Input/outras_fontes/receitas/'+ano+'/'
     nome_arquivo = url.split('/')[-1].replace(" ", "_").split('?')[0]
     print(nome_arquivo)
     if not os.path.exists(diretorio):
